@@ -1,0 +1,19 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 500px;
+        height: 500px;
+        color: var(--cor-terceira);
+        transition: color 0.3s ease;
+      }
+
+    img {
+        @media screen and (max-width:570px) {
+            width: 250px;
+            height: 250px;
+        }
+    }
+}

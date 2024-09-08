@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#filter);
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #000;
+      }
+
+      .cls-2 {
+        stroke-width: 10px;
+      }
+
+      .cls-2, .cls-4 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        stroke-width: 8px;
+      }
+
+      .cls-4 {
+        stroke-width: 1px;
+      }
+
+      .cls-5 {
+        filter: url(#filter-2);
+      }
+
+      .cls-6, .cls-7 {
+        font-size: 20.067px;
+        fill: #fff;
+        font-family: "Josefin Sans";
+      }
+
+      .cls-6 {
+        font-weight: 700;
+      }
+
+      .cls-7 {
+        font-weight: 200;
+      }
+    </style>
+    <filter id="filter" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-2.598" dy="1.5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.646"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feFlood result="flood-2" flood-color="#fff"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+    <filter id="filter-2" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-2.598" dy="1.5" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.646"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="relogio" class="cls-1">
+    <path id="Elipse_2" data-name="Elipse 2" class="cls-2" d="M248.758,98.2c49.2,0,89.086,40.667,89.086,90.832s-39.885,90.832-89.086,90.832-89.086-40.667-89.086-90.832S199.557,98.2,248.758,98.2Z"/>
+    <path id="Elipse_2-2" data-name="Elipse 2" class="cls-2" d="M248.758,71.839c63.477,0,114.935,52.467,114.935,117.187S312.235,306.214,248.758,306.214,133.823,253.747,133.823,189.026,185.281,71.839,248.758,71.839Z"/>
+    <circle id="Elipse_2-3" data-name="Elipse 2" class="cls-3" cx="248.75" cy="189.031" r="10.719"/>
+    <path id="Retângulo_1" data-name="Retângulo 1" class="cls-4" d="M245.565,126.066h5.74v52.306h-5.74V126.066h0Z"/>
+    <path id="Retângulo_2" data-name="Retângulo 2" class="cls-4" d="M260.317,194.006l28.352,16.84h0l-2.407,4.2h0L257.91,198.2h0l2.407-4.2h0Z"/>
+  </g>
+  <g id="textp" class="cls-5">
+    <text id="OPUS_CHECK" data-name="OPUS CHECK" class="cls-6" transform="translate(9.689 384.812) scale(3.543)">OPUS CHECK</text>
+    <text id="Your_tasks_Our_tasks." data-name="Your tasks, Our tasks." class="cls-7" transform="translate(104.71 430.311) scale(1.644)">Your tasks, Our tasks.</text>
+  </g>
+</svg>

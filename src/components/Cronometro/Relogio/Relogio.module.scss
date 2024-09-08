@@ -1,0 +1,35 @@
+.relogioContainer {
+  display: flex;
+  align-items: center; /* Alinha verticalmente os itens ao centro */
+  gap: 6px; /* Espaçamento entre os itens, ajuste conforme necessário */
+}
+
+.relogioNumero {
+  background-color: var(--cor-selecionado);
+  box-shadow: 2px 2px 4px #2B2B2B inset;
+  height: 3.6rem;
+  width: 3rem;
+  border-radius: 10px;
+  display: flex;
+  padding: 0.5rem 0;
+  align-items: center; /* Alinha o texto verticalmente no centro do botão */
+  justify-content: center; /* Alinha o texto horizontalmente no centro do botão */
+  font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold;
+  
+  @media screen and (min-width:1280px) {
+    height: 10.8rem;
+    width: 9rem;
+    font-size: 10rem; /* Ajuste o tamanho da fonte conforme necessário */
+  }
+}
+
+.relogioDivisao {
+  font-size: 2rem; /* Ajuste o tamanho da fonte conforme necessário */
+  line-height: 3.6rem; /* Alinha verticalmente com o número */
+  
+  @media screen and (min-width:1280px) {
+    font-size: 6rem; /* Ajuste o tamanho da fonte conforme necessário */
+    line-height: 10.8rem; /* Alinha verticalmente com o número */
+  }
+}

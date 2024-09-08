@@ -1,0 +1,44 @@
+.boxDark {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.darkMode {
+    width: 85px;
+    height: 85px;
+    background-color: var(--cor-terceira);
+    color: var(--cor-primeira);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+
+    &:hover {
+        background-color: var(--cor-selecionado);
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    svg {
+        width: 25px;
+        height: 25px;
+        fill: currentColor;
+    }
+
+    @media screen and (max-width:570px) {
+        width: 70px;
+        height: 70px;
+    }
+}
+

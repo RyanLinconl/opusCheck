@@ -1,0 +1,19 @@
+:root {
+  --cor-background: #DDF2FD;
+  --cor-fundo: #EEEEEE;
+  --cor-primeira: #9BBEC8;
+  --cor-segunda: #164863;
+  --cor-terceira: #427D9D;
+  --cor-selecionado: #235068;
+  --cor-concluido: #347734;
+}
+
+[data-theme = "dark"] {
+  --cor-background: #060a1a;
+  --cor-fundo: #EEEEEE;
+  --cor-primeira: #433d8b;
+  --cor-segunda: #535C91;
+  --cor-terceira: #1B1A55;
+  --cor-selecionado: #100f38;
+  --cor-concluido: #347734;
+}
